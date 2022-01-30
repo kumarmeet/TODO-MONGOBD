@@ -1,0 +1,20 @@
+{
+  "name": "todo-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "Todo add using expressjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Meet Kumar Vishwakarma",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "lodash.truncate": "^4.4.2",
+    "mongodb": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

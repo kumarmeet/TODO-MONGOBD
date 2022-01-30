@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.todos-list_main {
+  margin-top: 2rem;
+  width: 70%;
+}
+
+.list-group-item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.todos-list_lists{
+  display: flex;
+}
+
+.todos-list_lists address{
+  margin: 0 1.2rem;
+}

@@ -1,0 +1,18 @@
+.card-body {
+  width: 450px;
+}
+
+.see-todo_main .card {
+  padding: 5rem 10rem;
+}
+
+.see-todo_main .card-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.see-todo_card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}

@@ -1,0 +1,16 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 40px;
+  padding: 1rem;
+}
+

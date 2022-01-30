@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("includes/head", {title:"All Todos"}) %>
+    <link rel="stylesheet" href="/styles/add-todos.css" />
+  </head>
+  <body>
+    <main class="add-todos-main">
+      <form class="add-todos-form" action="/create-todos" method="POST">
+        <p class="input-group">
+          <span class="input-group-text fs-5 text-primary">What's Your Plan</span>
+          <input class="form-control" aria-label="With textarea" name="item" />
+        </p>
+
+        <p>
+          <button class="btn btn-secondary">
+            <i class="fa-2x fas fa-plus add-btn"></i>
+          </button>
+        </p>
+      </form>
+
+      <section>
+        <a class="btn btn-secondary" href="/todos-list">View Your All TODOS</a>
+      </section>
+    </main>
+  </body>
+</html>
